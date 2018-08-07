@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDFD186B211A089C007E14FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD186A211A089C007E14FB /* AppDelegate.swift */; };
+		BDFD186D211A089C007E14FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD186C211A089C007E14FB /* ViewController.swift */; };
+		BDFD1870211A089C007E14FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDFD186E211A089C007E14FB /* Main.storyboard */; };
+		BDFD1873211A089C007E14FB /* iChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDFD1871211A089C007E14FB /* iChat.xcdatamodeld */; };
+		BDFD1875211A089D007E14FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDFD1874211A089D007E14FB /* Assets.xcassets */; };
+		BDFD1878211A089D007E14FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDFD1876211A089D007E14FB /* LaunchScreen.storyboard */; };
+		BDFD1883211A089D007E14FB /* iChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD1882211A089D007E14FB /* iChatTests.swift */; };
+		BDFD188E211A089D007E14FB /* iChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD188D211A089D007E14FB /* iChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDFD187F211A089D007E14FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDFD185F211A089C007E14FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDFD1866211A089C007E14FB;
+			remoteInfo = iChat;
+		};
+		BDFD188A211A089D007E14FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDFD185F211A089C007E14FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDFD1866211A089C007E14FB;
+			remoteInfo = iChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDFD1867211A089C007E14FB /* iChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFD186A211A089C007E14FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDFD186C211A089C007E14FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDFD186F211A089C007E14FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDFD1872211A089C007E14FB /* iChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iChat.xcdatamodel; sourceTree = "<group>"; };
+		BDFD1874211A089D007E14FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDFD1877211A089D007E14FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDFD1879211A089D007E14FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDFD187E211A089D007E14FB /* iChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFD1882211A089D007E14FB /* iChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChatTests.swift; sourceTree = "<group>"; };
+		BDFD1884211A089D007E14FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDFD1889211A089D007E14FB /* iChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFD188D211A089D007E14FB /* iChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChatUITests.swift; sourceTree = "<group>"; };
+		BDFD188F211A089D007E14FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDFD1864211A089C007E14FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFD187B211A089D007E14FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFD1886211A089D007E14FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDFD185E211A089C007E14FB = {
+			isa = PBXGroup;
+			children = (
+				BDFD1869211A089C007E14FB /* iChat */,
+				BDFD1881211A089D007E14FB /* iChatTests */,
+				BDFD188C211A089D007E14FB /* iChatUITests */,
+				BDFD1868211A089C007E14FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDFD1868211A089C007E14FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDFD1867211A089C007E14FB /* iChat.app */,
+				BDFD187E211A089D007E14FB /* iChatTests.xctest */,
+				BDFD1889211A089D007E14FB /* iChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDFD1869211A089C007E14FB /* iChat */ = {
+			isa = PBXGroup;
+			children = (
+				BDFD186A211A089C007E14FB /* AppDelegate.swift */,
+				BDFD186C211A089C007E14FB /* ViewController.swift */,
+				BDFD186E211A089C007E14FB /* Main.storyboard */,
+				BDFD1874211A089D007E14FB /* Assets.xcassets */,
+				BDFD1876211A089D007E14FB /* LaunchScreen.storyboard */,
+				BDFD1879211A089D007E14FB /* Info.plist */,
+				BDFD1871211A089C007E14FB /* iChat.xcdatamodeld */,
+			);
+			path = iChat;
+			sourceTree = "<group>";
+		};
+		BDFD1881211A089D007E14FB /* iChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDFD1882211A089D007E14FB /* iChatTests.swift */,
+				BDFD1884211A089D007E14FB /* Info.plist */,
+			);
+			path = iChatTests;
+			sourceTree = "<group>";
+		};
+		BDFD188C211A089D007E14FB /* iChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDFD188D211A089D007E14FB /* iChatUITests.swift */,
+				BDFD188F211A089D007E14FB /* Info.plist */,
+			);
+			path = iChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDFD1866211A089C007E14FB /* iChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFD1892211A089D007E14FB /* Build configuration list for PBXNativeTarget "iChat" */;
+			buildPhases = (
+				BDFD1863211A089C007E14FB /* Sources */,
+				BDFD1864211A089C007E14FB /* Frameworks */,
+				BDFD1865211A089C007E14FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iChat;
+			productName = iChat;
+			productReference = BDFD1867211A089C007E14FB /* iChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDFD187D211A089D007E14FB /* iChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFD1895211A089D007E14FB /* Build configuration list for PBXNativeTarget "iChatTests" */;
+			buildPhases = (
+				BDFD187A211A089D007E14FB /* Sources */,
+				BDFD187B211A089D007E14FB /* Frameworks */,
+				BDFD187C211A089D007E14FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDFD1880211A089D007E14FB /* PBXTargetDependency */,
+			);
+			name = iChatTests;
+			productName = iChatTests;
+			productReference = BDFD187E211A089D007E14FB /* iChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDFD1888211A089D007E14FB /* iChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFD1898211A089D007E14FB /* Build configuration list for PBXNativeTarget "iChatUITests" */;
+			buildPhases = (
+				BDFD1885211A089D007E14FB /* Sources */,
+				BDFD1886211A089D007E14FB /* Frameworks */,
+				BDFD1887211A089D007E14FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDFD188B211A089D007E14FB /* PBXTargetDependency */,
+			);
+			name = iChatUITests;
+			productName = iChatUITests;
+			productReference = BDFD1889211A089D007E14FB /* iChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDFD185F211A089C007E14FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Max Goh";
+				TargetAttributes = {
+					BDFD1866211A089C007E14FB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					BDFD187D211A089D007E14FB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BDFD1866211A089C007E14FB;
+					};
+					BDFD1888211A089D007E14FB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BDFD1866211A089C007E14FB;
+					};
+				};
+			};
+			buildConfigurationList = BDFD1862211A089C007E14FB /* Build configuration list for PBXProject "iChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDFD185E211A089C007E14FB;
+			productRefGroup = BDFD1868211A089C007E14FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDFD1866211A089C007E14FB /* iChat */,
+				BDFD187D211A089D007E14FB /* iChatTests */,
+				BDFD1888211A089D007E14FB /* iChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDFD1865211A089C007E14FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFD1878211A089D007E14FB /* LaunchScreen.storyboard in Resources */,
+				BDFD1875211A089D007E14FB /* Assets.xcassets in Resources */,
+				BDFD1870211A089C007E14FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFD187C211A089D007E14FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFD1887211A089D007E14FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDFD1863211A089C007E14FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFD186D211A089C007E14FB /* ViewController.swift in Sources */,
+				BDFD1873211A089C007E14FB /* iChat.xcdatamodeld in Sources */,
+				BDFD186B211A089C007E14FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFD187A211A089D007E14FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFD1883211A089D007E14FB /* iChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFD1885211A089D007E14FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFD188E211A089D007E14FB /* iChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDFD1880211A089D007E14FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDFD1866211A089C007E14FB /* iChat */;
+			targetProxy = BDFD187F211A089D007E14FB /* PBXContainerItemProxy */;
+		};
+		BDFD188B211A089D007E14FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDFD1866211A089C007E14FB /* iChat */;
+			targetProxy = BDFD188A211A089D007E14FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDFD186E211A089C007E14FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFD186F211A089C007E14FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDFD1876211A089D007E14FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFD1877211A089D007E14FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDFD1890211A089D007E14FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDFD1891211A089D007E14FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDFD1893211A089D007E14FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F5625U58V;
+				INFOPLIST_FILE = iChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.max.iChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDFD1894211A089D007E14FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F5625U58V;
+				INFOPLIST_FILE = iChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.max.iChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDFD1896211A089D007E14FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F5625U58V;
+				INFOPLIST_FILE = iChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.max.iChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iChat.app/iChat";
+			};
+			name = Debug;
+		};
+		BDFD1897211A089D007E14FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F5625U58V;
+				INFOPLIST_FILE = iChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.max.iChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iChat.app/iChat";
+			};
+			name = Release;
+		};
+		BDFD1899211A089D007E14FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F5625U58V;
+				INFOPLIST_FILE = iChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.max.iChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iChat;
+			};
+			name = Debug;
+		};
+		BDFD189A211A089D007E14FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F5625U58V;
+				INFOPLIST_FILE = iChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.max.iChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDFD1862211A089C007E14FB /* Build configuration list for PBXProject "iChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFD1890211A089D007E14FB /* Debug */,
+				BDFD1891211A089D007E14FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDFD1892211A089D007E14FB /* Build configuration list for PBXNativeTarget "iChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFD1893211A089D007E14FB /* Debug */,
+				BDFD1894211A089D007E14FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDFD1895211A089D007E14FB /* Build configuration list for PBXNativeTarget "iChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFD1896211A089D007E14FB /* Debug */,
+				BDFD1897211A089D007E14FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDFD1898211A089D007E14FB /* Build configuration list for PBXNativeTarget "iChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFD1899211A089D007E14FB /* Debug */,
+				BDFD189A211A089D007E14FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDFD1871211A089C007E14FB /* iChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDFD1872211A089C007E14FB /* iChat.xcdatamodel */,
+			);
+			currentVersion = BDFD1872211A089C007E14FB /* iChat.xcdatamodel */;
+			path = iChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDFD185F211A089C007E14FB /* Project object */;
+}
