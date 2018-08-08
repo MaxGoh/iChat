@@ -45,6 +45,6 @@ class WelcomeViewController: UIViewController {
     func cleanTextField() {
         emailTextField.text = ""
         passwordTextField.text = ""
-        repeatPasswordTextField = ""
+        repeatPasswordTextField.text = ""
     }
 }
