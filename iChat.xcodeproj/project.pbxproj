@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		5CE5C8E7FB392C8B690ABA0E /* Pods_iChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D92325AA7F79FD61CC38802 /* Pods_iChat.framework */; };
 		7B27FEA64FF27693E696289C /* Pods_iChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCBA0A839DFCD5DFE3A3AFA3 /* Pods_iChatTests.framework */; };
+		BD5F7DD7211C95C0002D127A /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5F7DD6211C95C0002D127A /* UserTableViewCell.swift */; };
+		BD5F7DE0211C9A4A002D127A /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5F7DDF211C9A4A002D127A /* UsersTableViewController.swift */; };
+		BD5F7DE3211CA88E002D127A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5F7DE2211CA88E002D127A /* ChatViewController.swift */; };
+		BD7E8DEC211C147500CFA133 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E8DEB211C147500CFA133 /* Constants.swift */; };
+		BD7E8DEE211C147C00CFA133 /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E8DED211C147C00CFA133 /* FUser.swift */; };
+		BD7E8DF0211C18EE00CFA133 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E8DEF211C18EE00CFA133 /* HelperFunctions.swift */; };
+		BD7E8DF4211C190200CFA133 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E8DF1211C190000CFA133 /* Camera.swift */; };
+		BD7E8DF5211C190200CFA133 /* FCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E8DF2211C190100CFA133 /* FCollectionReference.swift */; };
+		BD7E8DF6211C190200CFA133 /* CountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E8DF3211C190200CFA133 /* CountryCode.swift */; };
+		BD7E8DF8211C283C00CFA133 /* FinishRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E8DF7211C283C00CFA133 /* FinishRegistrationViewController.swift */; };
+		BDED1126211C8D8C0002DD3F /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDED1125211C8D8C0002DD3F /* SettingsTableViewController.swift */; };
 		BDFD186B211A089C007E14FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD186A211A089C007E14FB /* AppDelegate.swift */; };
 		BDFD1870211A089C007E14FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDFD186E211A089C007E14FB /* Main.storyboard */; };
 		BDFD1873211A089C007E14FB /* iChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDFD1871211A089C007E14FB /* iChat.xcdatamodeld */; };
@@ -47,6 +58,17 @@
 		A2A9B5158CD12F0D7C687796 /* Pods-iChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iChat/Pods-iChat.debug.xcconfig"; sourceTree = "<group>"; };
 		AA79218636B09629769B43F8 /* Pods_iChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCBA0A839DFCD5DFE3A3AFA3 /* Pods_iChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5F7DD6211C95C0002D127A /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		BD5F7DDF211C9A4A002D127A /* UsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		BD5F7DE2211CA88E002D127A /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		BD7E8DEB211C147500CFA133 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BD7E8DED211C147C00CFA133 /* FUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FUser.swift; sourceTree = "<group>"; };
+		BD7E8DEF211C18EE00CFA133 /* HelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		BD7E8DF1211C190000CFA133 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		BD7E8DF2211C190100CFA133 /* FCollectionReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCollectionReference.swift; sourceTree = "<group>"; };
+		BD7E8DF3211C190200CFA133 /* CountryCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCode.swift; sourceTree = "<group>"; };
+		BD7E8DF7211C283C00CFA133 /* FinishRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishRegistrationViewController.swift; sourceTree = "<group>"; };
+		BDED1125211C8D8C0002DD3F /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		BDFD1867211A089C007E14FB /* iChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDFD186A211A089C007E14FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDFD186F211A089C007E14FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -116,6 +138,46 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BD5F7DD8211C9963002D127A /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				BD5F7DD6211C95C0002D127A /* UserTableViewCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		BD5F7DE1211C9AAD002D127A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BDFD189B211A0A42007E14FB /* WelcomeViewController.swift */,
+				BD5F7DE2211CA88E002D127A /* ChatViewController.swift */,
+				BD5F7DDF211C9A4A002D127A /* UsersTableViewController.swift */,
+				BDED1125211C8D8C0002DD3F /* SettingsTableViewController.swift */,
+				BD7E8DF7211C283C00CFA133 /* FinishRegistrationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BD7E8DF9211C286A00CFA133 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BD7E8DEF211C18EE00CFA133 /* HelperFunctions.swift */,
+				BD7E8DF1211C190000CFA133 /* Camera.swift */,
+				BD7E8DF3211C190200CFA133 /* CountryCode.swift */,
+				BD7E8DF2211C190100CFA133 /* FCollectionReference.swift */,
+				BD7E8DEB211C147500CFA133 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BD7E8DFA211C289700CFA133 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BD7E8DED211C147C00CFA133 /* FUser.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		BDFD185E211A089C007E14FB = {
 			isa = PBXGroup;
 			children = (
@@ -141,8 +203,11 @@
 		BDFD1869211A089C007E14FB /* iChat */ = {
 			isa = PBXGroup;
 			children = (
+				BD7E8DFA211C289700CFA133 /* Classes */,
+				BD7E8DF9211C286A00CFA133 /* Helpers */,
+				BD5F7DD8211C9963002D127A /* CustomCells */,
+				BD5F7DE1211C9AAD002D127A /* Controllers */,
 				BDFD186A211A089C007E14FB /* AppDelegate.swift */,
-				BDFD189B211A0A42007E14FB /* WelcomeViewController.swift */,
 				BDFD186E211A089C007E14FB /* Main.storyboard */,
 				BDFD1874211A089D007E14FB /* Assets.xcassets */,
 				BDFD1876211A089D007E14FB /* LaunchScreen.storyboard */,
@@ -422,9 +487,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5F7DE0211C9A4A002D127A /* UsersTableViewController.swift in Sources */,
+				BD7E8DF8211C283C00CFA133 /* FinishRegistrationViewController.swift in Sources */,
+				BD7E8DEE211C147C00CFA133 /* FUser.swift in Sources */,
 				BDFD189C211A0A42007E14FB /* WelcomeViewController.swift in Sources */,
+				BDED1126211C8D8C0002DD3F /* SettingsTableViewController.swift in Sources */,
+				BD5F7DD7211C95C0002D127A /* UserTableViewCell.swift in Sources */,
+				BD7E8DF6211C190200CFA133 /* CountryCode.swift in Sources */,
 				BDFD1873211A089C007E14FB /* iChat.xcdatamodeld in Sources */,
 				BDFD186B211A089C007E14FB /* AppDelegate.swift in Sources */,
+				BD7E8DEC211C147500CFA133 /* Constants.swift in Sources */,
+				BD5F7DE3211CA88E002D127A /* ChatViewController.swift in Sources */,
+				BD7E8DF4211C190200CFA133 /* Camera.swift in Sources */,
+				BD7E8DF5211C190200CFA133 /* FCollectionReference.swift in Sources */,
+				BD7E8DF0211C18EE00CFA133 /* HelperFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
